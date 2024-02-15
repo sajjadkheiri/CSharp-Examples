@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\introdutionproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|solutionrelative:introdutionproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\introdutionproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|solutionrelative:introdutionproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\introdutionproject\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|solutionrelative:introdutionproject\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\introdutionproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|solutionrelative:introdutionproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\introdutionproject\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|solutionrelative:introdutionproject\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 195,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Program.cs",
+              "RelativeDocumentMoniker": "IntrodutionProject\\Program.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Program.cs",
+              "RelativeToolTip": "IntrodutionProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T20:27:00.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "IntrodutionProject\\Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "IntrodutionProject\\Views\\Home\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T20:10:32.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "IntrodutionProject\\Models\\Person.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Models\\Person.cs",
+              "RelativeToolTip": "IntrodutionProject\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T20:08:00.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IntrodutionProject\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IntrodutionProject\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T20:06:46.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-15T20:05:48.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
