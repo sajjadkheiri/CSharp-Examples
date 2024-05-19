@@ -30,11 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
               "$type": "Document",
@@ -46,8 +54,7 @@
               "RelativeToolTip": "IntrodutionProject\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T20:27:00.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T20:27:00.552Z"
             },
             {
               "$type": "Document",
@@ -59,8 +66,7 @@
               "RelativeToolTip": "IntrodutionProject\\Views\\Home\\Register.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-15T20:10:32.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T20:10:32.77Z"
             },
             {
               "$type": "Document",
@@ -72,8 +78,7 @@
               "RelativeToolTip": "IntrodutionProject\\Models\\Person.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAgwAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T20:08:00.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T20:08:00.663Z"
             },
             {
               "$type": "Document",
@@ -83,7 +88,7 @@
               "RelativeDocumentMoniker": "IntrodutionProject\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "IntrodutionProject\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-15T20:06:46.096Z",
               "EditorCaption": ""
@@ -98,8 +103,7 @@
               "RelativeToolTip": "IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-15T20:05:48.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-15T20:05:48.011Z"
             }
           ]
         }
