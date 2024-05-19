@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{768B5CCD-E985-42A4-BA59-5B89831CDA23}|Net.Examples\\Net.Examples.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\net.examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768B5CCD-E985-42A4-BA59-5B89831CDA23}|Net.Examples\\Net.Examples.csproj|solutionrelative:net.examples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768B5CCD-E985-42A4-BA59-5B89831CDA23}|Net.Examples\\Net.Examples.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\net.examples\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768B5CCD-E985-42A4-BA59-5B89831CDA23}|Net.Examples\\Net.Examples.csproj|solutionrelative:net.examples\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\introdutionproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7190BDE9-045D-4211-BC3D-B1395D65671C}|IntrodutionProject\\IntrodutionProject.csproj|solutionrelative:introdutionproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Property.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net.Examples\\Property.cs",
+              "RelativeDocumentMoniker": "Net.Examples\\Property.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net.Examples\\Property.cs",
+              "RelativeToolTip": "Net.Examples\\Property.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:31:17.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net.Examples\\Program.cs",
+              "RelativeDocumentMoniker": "Net.Examples\\Program.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net.Examples\\Program.cs",
+              "RelativeToolTip": "Net.Examples\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:30:24.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Program.cs",
               "RelativeDocumentMoniker": "IntrodutionProject\\Program.cs",
@@ -58,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "IntrodutionProject\\Views\\Home\\Register.cshtml",
@@ -70,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Models\\Person.cs",
               "RelativeDocumentMoniker": "IntrodutionProject\\Models\\Person.cs",
@@ -82,20 +116,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "IntrodutionProject\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "IntrodutionProject\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-15T20:06:46.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "IntrodutionProject\\Views\\Shared\\_Layout.cshtml",
