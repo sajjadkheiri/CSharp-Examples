@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Structs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4649e81c98f539f6521cfaa0c4ff261ec9f9f2ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b8f732203d6c1d09cdb1e806c8c0fb4a72c6d23")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Structs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Structs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

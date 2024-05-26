@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntrodutionProject", "Intro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Properties", "Net.Examples\Net-Example.Properties.csproj", "{768B5CCD-E985-42A4-BA59-5B89831CDA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Structs", "Net-Example.Structs\Net-Example.Structs.csproj", "{A18DAB38-CC76-48F5-910D-108AA1A30D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Structs", "Net-Example.Structs\Net-Example.Structs.csproj", "{A18DAB38-CC76-48F5-910D-108AA1A30D6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Enums", "Net-Example.Enums\Net-Example.Enums.csproj", "{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A18DAB38-CC76-48F5-910D-108AA1A30D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A18DAB38-CC76-48F5-910D-108AA1A30D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A18DAB38-CC76-48F5-910D-108AA1A30D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
