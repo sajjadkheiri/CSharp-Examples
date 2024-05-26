@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Ref-In-Out")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6cb024fc22bd568e2b130759deec3387e2ab88d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bf642012ec2e9cdde021025966d809126fb5c8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Ref-In-Out")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Ref-In-Out")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
