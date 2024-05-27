@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Tuples", "Net-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Partials", "Net-Example.Partials\Net-Example.Partials.csproj", "{EC4B7800-33F4-4859-83DF-50689B5367F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Inheritance", "Net-Example.Inheritance\Net-Example.Inheritance.csproj", "{813DB5FE-AFF5-4B86-9380-812F128C000E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813DB5FE-AFF5-4B86-9380-812F128C000E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813DB5FE-AFF5-4B86-9380-812F128C000E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813DB5FE-AFF5-4B86-9380-812F128C000E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813DB5FE-AFF5-4B86-9380-812F128C000E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
