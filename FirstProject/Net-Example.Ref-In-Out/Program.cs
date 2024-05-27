@@ -3,5 +3,5 @@ using Net_Example.Ref_In_Out;
 
 Samples sample = new Samples();
 
-sample.Caller();
+//sample.Caller();
 Console.ReadKey();

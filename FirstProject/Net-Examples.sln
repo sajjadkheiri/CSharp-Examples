@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Properties", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Structs", "Net-Example.Structs\Net-Example.Structs.csproj", "{A18DAB38-CC76-48F5-910D-108AA1A30D6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Enums", "Net-Example.Enums\Net-Example.Enums.csproj", "{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Enums", "Net-Example.Enums\Net-Example.Enums.csproj", "{5CE320AD-4B88-4ECE-9C40-5F0EB6BC6BCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Ref-In-Out", "Net-Example.Ref-In-Out\Net-Example.Ref-In-Out.csproj", "{BE42E432-64FA-42C4-9971-6EAF1088CBED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Ref-In-Out", "Net-Example.Ref-In-Out\Net-Example.Ref-In-Out.csproj", "{BE42E432-64FA-42C4-9971-6EAF1088CBED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Tuples", "Net-Example.Tuples\Net-Example.Tuples.csproj", "{9EB65853-0CCD-4FEB-84A3-D18567159DC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Tuples", "Net-Example.Tuples\Net-Example.Tuples.csproj", "{9EB65853-0CCD-4FEB-84A3-D18567159DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Partials", "Net-Example.Partials\Net-Example.Partials.csproj", "{EC4B7800-33F4-4859-83DF-50689B5367F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9EB65853-0CCD-4FEB-84A3-D18567159DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EB65853-0CCD-4FEB-84A3-D18567159DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EB65853-0CCD-4FEB-84A3-D18567159DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4B7800-33F4-4859-83DF-50689B5367F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
