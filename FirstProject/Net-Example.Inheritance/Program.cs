@@ -16,3 +16,12 @@ dog.Voice();
 
 Console.WriteLine("Caw : ");
 caw.Voice();
+
+
+Teacher person = new()
+{
+    Id = 1,
+    FirstName = "",
+    LastName = ""
+};
+

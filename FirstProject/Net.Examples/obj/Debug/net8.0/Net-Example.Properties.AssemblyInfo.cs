@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Properties")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d630840965b759d54d466fb9178d4dc039b0a103")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32db734f7481f72d26a3882d44e6e3fa1dffabb8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Properties")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Properties")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
