@@ -1,4 +1,5 @@
 ﻿using Net_Example.Inheritance;
+using Net_Example.Inheritance.Constructor;
 
 Animal animal = new();
 Cat cat = new();
@@ -25,3 +26,9 @@ Teacher person = new()
     LastName = ""
 };
 
+
+Product product = new();
+
+Product productParam = new("input (prodct)");
+
+Camera camera = new("input (camera)");
