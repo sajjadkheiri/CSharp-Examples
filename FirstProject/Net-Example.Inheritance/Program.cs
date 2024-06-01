@@ -1,5 +1,6 @@
 ﻿using Net_Example.Inheritance;
 using Net_Example.Inheritance.Constructor;
+using Net_Example.Inheritance.Interfaces;
 
 Animal animal = new();
 Cat cat = new();
@@ -32,3 +33,9 @@ Product product = new();
 Product productParam = new("input (prodct)");
 
 Camera camera = new("input (camera)");
+
+
+using (MyDisposable dispos = new MyDisposable())
+{
+
+}
