@@ -1,355 +1,96 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\",
+  "WorkspaceRootPath": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCA578D-F804-4916-90F2-6D49541B0644}|Net-Example.Generics\\Net-Example.Generics.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\net-example.generics\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCA578D-F804-4916-90F2-6D49541B0644}|Net-Example.Generics\\Net-Example.Generics.csproj|solutionrelative:net-example.generics\\printer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\interfaces\\myexplicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\myexplicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCA578D-F804-4916-90F2-6D49541B0644}|Net-Example.Generics\\Net-Example.Generics.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\net-example.generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCA578D-F804-4916-90F2-6D49541B0644}|Net-Example.Generics\\Net-Example.Generics.csproj|solutionrelative:net-example.generics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\interfaces\\myimplicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\myimplicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BCA578D-F804-4916-90F2-6D49541B0644}|Net-Example.Generics\\Net-Example.Generics.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\net-example.generics\\genericconcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BCA578D-F804-4916-90F2-6D49541B0644}|Net-Example.Generics\\Net-Example.Generics.csproj|solutionrelative:net-example.generics\\genericconcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\interfaces\\myinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\myinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\interfaces\\mycomparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\mycomparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\interfaces\\myenumerable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\myenumerable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\interfaces\\mydisposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\mydisposable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\constructor\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\constructor\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\constructor\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\constructor\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\net-example.inheritance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\net-example.inheritance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.inheritance\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE42E432-64FA-42C4-9971-6EAF1088CBED}|Net-Example.Ref-In-Out\\Net-Example.Ref-In-Out.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.ref-in-out\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE42E432-64FA-42C4-9971-6EAF1088CBED}|Net-Example.Ref-In-Out\\Net-Example.Ref-In-Out.csproj|solutionrelative:net-example.ref-in-out\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4B7800-33F4-4859-83DF-50689B5367F2}|Net-Example.Partials\\Net-Example.Partials.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.partials\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4B7800-33F4-4859-83DF-50689B5367F2}|Net-Example.Partials\\Net-Example.Partials.csproj|solutionrelative:net-example.partials\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4B7800-33F4-4859-83DF-50689B5367F2}|Net-Example.Partials\\Net-Example.Partials.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.partials\\person2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4B7800-33F4-4859-83DF-50689B5367F2}|Net-Example.Partials\\Net-Example.Partials.csproj|solutionrelative:net-example.partials\\person2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC4B7800-33F4-4859-83DF-50689B5367F2}|Net-Example.Partials\\Net-Example.Partials.csproj|g:\\learn\\.net 6\\repo\\firstproject\\net-example.partials\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC4B7800-33F4-4859-83DF-50689B5367F2}|Net-Example.Partials\\Net-Example.Partials.csproj|solutionrelative:net-example.partials\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|d:\\repo\\sajjadkheiri\\net-examples\\firstproject\\net-example.inheritance\\interfaces\\interfacemethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{813DB5FE-AFF5-4B86-9380-812F128C000E}|Net-Example.Inheritance\\Net-Example.Inheritance.csproj|solutionrelative:net-example.inheritance\\interfaces\\interfacemethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 195,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 30,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyExplicit.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyExplicit.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\MyExplicit.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyExplicit.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\MyExplicit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "Printer.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Generics\\Printer.cs",
+              "RelativeDocumentMoniker": "Net-Example.Generics\\Printer.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Generics\\Printer.cs",
+              "RelativeToolTip": "Net-Example.Generics\\Printer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T04:21:54.067Z",
+              "WhenOpened": "2024-06-04T10:20:05.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MyImplicit.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyImplicit.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\MyImplicit.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyImplicit.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\MyImplicit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "GenericConcate.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Generics\\GenericConcate.cs",
+              "RelativeDocumentMoniker": "Net-Example.Generics\\GenericConcate.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Generics\\GenericConcate.cs",
+              "RelativeToolTip": "Net-Example.Generics\\GenericConcate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T04:20:54.695Z",
+              "WhenOpened": "2024-06-04T09:53:54.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Generics\\Program.cs",
+              "RelativeDocumentMoniker": "Net-Example.Generics\\Program.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Generics\\Program.cs",
+              "RelativeToolTip": "Net-Example.Generics\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T09:52:40.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MyInterface.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyInterface.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\MyInterface.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyInterface.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\MyInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAHAAAA",
+              "Title": "InterfaceMethod.cs",
+              "DocumentMoniker": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Inheritance\\Interfaces\\InterfaceMethod.cs",
+              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\InterfaceMethod.cs",
+              "ToolTip": "D:\\Repo\\sajjadkheiri\\Net-Examples\\FirstProject\\Net-Example.Inheritance\\Interfaces\\InterfaceMethod.cs",
+              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\InterfaceMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T04:00:16.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyComparable.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyComparable.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\MyComparable.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyComparable.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\MyComparable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T03:59:15.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MyEnumerable.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyEnumerable.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\MyEnumerable.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyEnumerable.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\MyEnumerable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T03:58:10.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MyDisposable.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyDisposable.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Interfaces\\MyDisposable.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Interfaces\\MyDisposable.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Interfaces\\MyDisposable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T03:55:56.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Constructor\\Camera.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Constructor\\Camera.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Constructor\\Camera.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Constructor\\Camera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:15:09.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Net-Example.Inheritance",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Net-Example.Inheritance.csproj",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Net-Example.Inheritance.csproj",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Net-Example.Inheritance.csproj",
-              "RelativeToolTip": "Net-Example.Inheritance\\Net-Example.Inheritance.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-29T04:04:00.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:140:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:143:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:144:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Product.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Constructor\\Product.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Constructor\\Product.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Constructor\\Product.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Constructor\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:04:20.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Animal.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Animal.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Animal.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Animal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T12:52:36.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Program.cs",
-              "RelativeDocumentMoniker": "Net-Example.Inheritance\\Program.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Inheritance\\Program.cs",
-              "RelativeToolTip": "Net-Example.Inheritance\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAEwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T12:52:21.427Z",
+              "WhenOpened": "2024-06-04T09:30:04.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Ref-In-Out\\Program.cs",
-              "RelativeDocumentMoniker": "Net-Example.Ref-In-Out\\Program.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Ref-In-Out\\Program.cs",
-              "RelativeToolTip": "Net-Example.Ref-In-Out\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T09:02:40.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Person2.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Partials\\Person2.cs",
-              "RelativeDocumentMoniker": "Net-Example.Partials\\Person2.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Partials\\Person2.cs",
-              "RelativeToolTip": "Net-Example.Partials\\Person2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T08:53:43.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Person.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Partials\\Person.cs",
-              "RelativeDocumentMoniker": "Net-Example.Partials\\Person.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Partials\\Person.cs",
-              "RelativeToolTip": "Net-Example.Partials\\Person.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T08:51:25.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Partials\\Program.cs",
-              "RelativeDocumentMoniker": "Net-Example.Partials\\Program.cs",
-              "ToolTip": "G:\\Learn\\.Net 6\\Repo\\FirstProject\\Net-Example.Partials\\Program.cs",
-              "RelativeToolTip": "Net-Example.Partials\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T08:51:11.815Z",
-              "EditorCaption": ""
             }
           ]
         }
