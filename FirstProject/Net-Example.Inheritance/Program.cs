@@ -39,3 +39,10 @@ using (MyDisposable dispos = new MyDisposable())
 {
 
 }
+
+MyImplicitImpl myImpli = new MyImplicitImpl();
+myImpli.Insert();
+myImpli.Update();
+
+MyExplicitImpl myExpli = new MyExplicitImpl();
+MyExplicit iexpli = myExpli;
