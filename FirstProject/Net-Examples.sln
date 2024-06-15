@@ -15,13 +15,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Ref-In-Out", "N
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Tuples", "Net-Example.Tuples\Net-Example.Tuples.csproj", "{9EB65853-0CCD-4FEB-84A3-D18567159DC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Partials", "Net-Example.Partials\Net-Example.Partials.csproj", "{EC4B7800-33F4-4859-83DF-50689B5367F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Partials", "Net-Example.Partials\Net-Example.Partials.csproj", "{EC4B7800-33F4-4859-83DF-50689B5367F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Generics", "Net-Example.Generics\Net-Example.Generics.csproj", "{0BCA578D-F804-4916-90F2-6D49541B0644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Generics", "Net-Example.Generics\Net-Example.Generics.csproj", "{0BCA578D-F804-4916-90F2-6D49541B0644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Inheritance", "Net-Example.Inheritance\Net-Example.Inheritance.csproj", "{813DB5FE-AFF5-4B86-9380-812F128C000E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Inheritance", "Net-Example.Inheritance\Net-Example.Inheritance.csproj", "{813DB5FE-AFF5-4B86-9380-812F128C000E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Operations", "Net-Example.Operations\Net-Example.Operations.csproj", "{C29C4D09-0FD7-4B9C-8812-64ED050F849B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net-Example.Operations", "Net-Example.Operations\Net-Example.Operations.csproj", "{C29C4D09-0FD7-4B9C-8812-64ED050F849B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Array", "Net-Example.Array\Net-Example.Array.csproj", "{9EE6C889-4787-4BAA-B9EE-F4D1086A6608}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C29C4D09-0FD7-4B9C-8812-64ED050F849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29C4D09-0FD7-4B9C-8812-64ED050F849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C29C4D09-0FD7-4B9C-8812-64ED050F849B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE6C889-4787-4BAA-B9EE-F4D1086A6608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE6C889-4787-4BAA-B9EE-F4D1086A6608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE6C889-4787-4BAA-B9EE-F4D1086A6608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE6C889-4787-4BAA-B9EE-F4D1086A6608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
