@@ -39,5 +39,30 @@ namespace Net_Example.Array
             }
 
         }
+
+        /// <summary>
+        /// Start to read an array from end to begin
+        /// </summary>
+        public void Hat()
+        {
+            int[] sample = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            Console.WriteLine(sample[0]);
+            Console.WriteLine(sample[1]);
+            Console.WriteLine(sample[^1]);
+            Console.WriteLine(sample[^2]);
+        }
+
+        public void Range()
+        {
+            int[] sample = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+            var rangeOfArray = sample[1..4];
+
+            foreach (var item in rangeOfArray)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }
