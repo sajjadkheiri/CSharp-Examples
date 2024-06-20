@@ -269,3 +269,4 @@ __pycache__/
 # Cake - Uncomment if you are using it
 # tools/
 /FirstProject/.vs/Net-Examples/v17/DocumentLayout.json
+*/obj/*
