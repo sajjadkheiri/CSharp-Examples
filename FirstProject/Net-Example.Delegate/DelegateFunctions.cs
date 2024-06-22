@@ -27,4 +27,20 @@ namespace Net_Example.Delegate
     {
         public static string GetPersonalFullName(Person person) => $"{person.LastName} {person.FirstName}";
     }
+
+    /// <summary>
+    /// Func is a delegate that return a value with until 16 input parameter
+    /// </summary>
+    public class FuncSample
+    {
+        public static string MyIntToString(int i, int j, int y) => $"{i},{j},{y}";
+    }
+
+    /// <summary>
+    /// Action is a delegate that is void with until 16 input parameter
+    /// </summary>
+    public class ActionSample
+    {
+        public static void MyStringToVoid(string name, string family) => Console.WriteLine($"{name} {family}");
+    }
 }
