@@ -43,4 +43,31 @@ namespace Net_Example.Delegate
     {
         public static void MyStringToVoid(string name, string family) => Console.WriteLine($"{name} {family}");
     }
+
+    public class LambdaDelegate
+    {
+        public void LambdaFunction()
+        {
+            Func<string> func1 = () => "Without input parameter";
+
+            Func<int, string> func2 = x => x.ToString();
+
+            Func<int, int, string> func3 = (x, y) => $"{x},{y}";
+
+            Func<int, int, string> func4 = (x, y) =>
+            {
+                if (x > y)
+                {
+                    return x.ToString();
+                }
+                else
+                {
+                    return y.ToString();
+                }
+            };
+
+            var result = func1.Invoke();
+            Console.WriteLine(result);
+        }
+    }
 }

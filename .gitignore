@@ -270,3 +270,4 @@ __pycache__/
 # tools/
 /FirstProject/.vs/Net-Examples/v17/DocumentLayout.json
 */obj/*
+*/.vs/*

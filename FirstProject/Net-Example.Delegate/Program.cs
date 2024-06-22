@@ -34,8 +34,11 @@ printer.PrintFunc(PersonFullNameReverse.GetPersonalFullName, person);
 Action<string,string> action = ActionSample.MyStringToVoid;
 action("Sajjad","Kheiri");
 
-#endregion
 Console.WriteLine(result);
+
+#endregion
+
+#region Multicast 
 
 // Multicast delegate void
 
@@ -55,3 +58,12 @@ personDelegate += PersonFullNameReverse.GetPersonalFullName;
 
 PersonPrinter personPrinter = new PersonPrinter();
 personPrinter.Print(personDelegate,person);
+
+#endregion
+
+#region Lambda Delegate
+    
+    LambdaDelegate lambda = new LambdaDelegate();
+    lambda.LambdaFunction();
+    
+#endregion
