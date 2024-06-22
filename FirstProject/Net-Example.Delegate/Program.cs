@@ -67,3 +67,16 @@ personPrinter.Print(personDelegate,person);
     lambda.LambdaFunction();
     
 #endregion
+
+#region Event
+
+TeacherWithEvent teacher = new TeacherWithEvent("Sajjad");
+
+TeacherChangeNameLogger Logger = new TeacherChangeNameLogger();
+
+teacher.eventChanges += Logger.Log;
+
+teacher.SetName("Alireza");
+
+#endregion
+
