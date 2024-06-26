@@ -32,15 +32,35 @@ Console.WriteLine(queue.Dequeue());
 queue.Count();
 Console.WriteLine(queue.Dequeue());
 queue.Count();
-    
+
+Console.ReadKey();
+
 #endregion
 
 #region Priority Queue
-    
-    queue.AddWithDifferentPriority();
 
-    Console.WriteLine("---------------------------");
+queue.AddWithDifferentPriority();
 
-    queue.AddWithSamePriority();
+Console.WriteLine("---------------------------");
+
+queue.AddWithSamePriority();
+
+Console.ReadKey();
+
+#endregion
+
+#region Stack
+
+StackFunctions stackFunctions = new StackFunctions();
+
+stackFunctions.Push("1");
+stackFunctions.Push("2");
+stackFunctions.Push("3");
+
+Console.WriteLine(stackFunctions.Pop());
+Console.WriteLine(stackFunctions.Pop());
+Console.WriteLine(stackFunctions.Pop());
+
+Console.ReadKey();
 
 #endregion
