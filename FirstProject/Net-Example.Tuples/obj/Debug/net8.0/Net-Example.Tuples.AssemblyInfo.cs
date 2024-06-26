@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Tuples")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+679f64e0b91cba32eed1703a21c4e5a5458952e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44447398ff96d02be76b18abe772e505a2d1635a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Tuples")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Tuples")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
