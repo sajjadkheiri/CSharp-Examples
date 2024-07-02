@@ -29,9 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Delegate", "Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Collections", "Net-Example.Collections\Net-Example.Collections.csproj", "{10CE1B3E-9100-48A8-BACE-826DBDF808C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Exception", "Net-Example.Exception\Net-Example.Exception.csproj", "{DCDD0BE3-9AF2-42F0-A033-4D28BB0FCCA1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Exceptions", "Net-Example.Exceptions\Net-Example.Exceptions.csproj", "{99DD3899-6E0B-499B-8586-377C9B6B5F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Linq", "Net-Example.Linq\Net-Example.Linq.csproj", "{C0421C7B-C802-44E8-91C1-AA72D8BA5C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +99,10 @@ Global
 		{99DD3899-6E0B-499B-8586-377C9B6B5F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99DD3899-6E0B-499B-8586-377C9B6B5F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99DD3899-6E0B-499B-8586-377C9B6B5F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0421C7B-C802-44E8-91C1-AA72D8BA5C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0421C7B-C802-44E8-91C1-AA72D8BA5C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0421C7B-C802-44E8-91C1-AA72D8BA5C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0421C7B-C802-44E8-91C1-AA72D8BA5C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
