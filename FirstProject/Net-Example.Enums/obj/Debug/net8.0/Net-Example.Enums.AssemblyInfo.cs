@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Enums")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f052c7dbcd06bebf9727fa580865aad9be8d18a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdc270ab89d06469f09a38e9914484a7bcdb1862")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Enums")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Enums")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

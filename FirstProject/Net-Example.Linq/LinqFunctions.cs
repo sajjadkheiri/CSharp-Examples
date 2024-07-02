@@ -132,4 +132,21 @@ public class LinqFunctions
 
         Person.PrintInformation(result);
     }
+
+    public void GroupByPeople(List<Person> people)
+    {
+        var result = people.GroupBy(x => x.Age);
+
+        foreach (var Person in result)
+        {
+            Console.WriteLine($"Group : {Person.Key}");
+
+            foreach (var item in Person)
+            {
+                Console.WriteLine($"{item.FirstName} {item.LastName} : {item.Age}");
+            }
+
+            Console.WriteLine("*******************************************");
+        }
+    }
 }

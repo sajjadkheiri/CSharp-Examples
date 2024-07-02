@@ -15,21 +15,26 @@ List<Person> people = new List<Person>(){
 
 #endregion
 
-#region Filter
+// #region Filter
 
-linqFunctions.FilterPeople(people);
+// linqFunctions.FilterPeople(people);
 
-List<object> obj = new List<object>() { "Sajjad", 1, 2, 3, true, "Kheiri", 85 };
+// List<object> obj = new List<object>() { "Sajjad", 1, 2, 3, true, "Kheiri", 85 };
 
-linqFunctions.FilterByType(obj);
+// linqFunctions.FilterByType(obj);
 
-#endregion
+// #endregion
 
-#region Sort
+// #region Sort
 
-linqFunctions.SortByFirstName(people);
+// linqFunctions.SortByFirstName(people);
 
-linqFunctions.SortByTwoOptions(people);
+// linqFunctions.SortByTwoOptions(people);
     
-#endregion
+// #endregion
 
+#region GroupBy
+    
+    linqFunctions.GroupByPeople(people);
+
+#endregion
