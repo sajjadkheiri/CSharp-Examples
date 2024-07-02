@@ -149,4 +149,21 @@ public class LinqFunctions
             Console.WriteLine("*******************************************");
         }
     }
+
+    public void InnerJoinPersonInfo(List<Person> people, List<PersonInformation> information)
+    {
+        var result = people.Join(information, per => per.Id, info => info.PersonId, (per, info) => new
+        {
+            PersonId = per.Id,
+            PersonInfoId = info.Id,
+            per.FirstName,
+            per.LastName,
+            info.NationalCode
+        });
+
+        foreach (var item in result)
+        {
+            Console.WriteLine($"Person Id : {item.PersonId} | InfoId : {item.PersonInfoId} | FirstName : {item.FirstName} | LastName : {item.LastName} | NationalCode : {item.NationalCode}");
+        }
+    }
 }
