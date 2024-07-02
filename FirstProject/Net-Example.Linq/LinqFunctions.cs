@@ -111,4 +111,25 @@ public class LinqFunctions
             Console.WriteLine($"The number is {number}");
         }
     }
+
+    /// <summary>
+    /// OrderBy & OrderByDescending
+    /// </summary>
+    public void SortByFirstName(List<Person> people)
+    {
+        var result = people.OrderBy(x => x.FirstName).ToList();
+
+        Person.PrintInformation(result);
+    }
+
+    /// <summary>
+    /// ThenBy & ThenByDescending : When you want to sort the list after the list was sorted
+    /// Two times sorting
+    /// </summary>
+    public void SortByTwoOptions(List<Person> people)
+    {
+        var result = people.OrderBy(x => x.FirstName).ThenBy(y => y.Age).ToList();
+
+        Person.PrintInformation(result);
+    }
 }

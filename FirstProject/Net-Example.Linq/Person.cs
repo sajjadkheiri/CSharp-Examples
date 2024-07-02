@@ -2,7 +2,7 @@
 
 public class Person
 {
-    public string FirsName { get; set; }
+    public string FirstName { get; set; }
     public string LastName { get; set; }
     public int Age { get; set; }
 
@@ -10,7 +10,7 @@ public class Person
     {
         foreach (var Person in people)
         {
-            Console.WriteLine($"Name : {Person.FirsName} {Person.LastName} | Age : {Person.Age}");
+            Console.WriteLine($"Name : {Person.FirstName} {Person.LastName} | Age : {Person.Age}");
         }
     }
 }
