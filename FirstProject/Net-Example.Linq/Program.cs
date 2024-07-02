@@ -46,8 +46,10 @@ linqFunctions.GroupByPeople(people);
 
 #endregion
 
-#region InnerJoin
+#region Join
 
 linqFunctions.InnerJoinPersonInfo(people, personInformation);
+
+linqFunctions.GroupJoinPersonInfo(people, personInformation);
 
 #endregion

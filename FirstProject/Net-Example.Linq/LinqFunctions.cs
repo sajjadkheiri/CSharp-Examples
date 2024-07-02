@@ -166,4 +166,26 @@ public class LinqFunctions
             Console.WriteLine($"Person Id : {item.PersonId} | InfoId : {item.PersonInfoId} | FirstName : {item.FirstName} | LastName : {item.LastName} | NationalCode : {item.NationalCode}");
         }
     }
+
+    /// <summary>
+    /// Group join consist of both sides of join
+    /// </summary>
+    public void GroupJoinPersonInfo(List<Person> people, List<PersonInformation> information)
+    {
+        var result = people.GroupJoin(information, p => p.Id, i => i.PersonId, (per, info) => new
+        {
+            PersonId = per.Id,
+            per.FirstName,
+            per.LastName,
+            Information = info
+        });
+
+        foreach (var pers in result)
+        {
+            foreach (var info in pers.Information)
+            {
+                Console.WriteLine($"Person Id : {pers.PersonId} | InfoId : {info.Id} | FirstName : {pers.FirstName} | LastName : {pers.LastName} | NationalCode : {info.NationalCode}");
+            }
+        }
+    }
 }
