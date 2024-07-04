@@ -22,23 +22,23 @@ List<PersonInformation> personInformation = new List<PersonInformation>(){
 
 #endregion
 
-// #region Filter
+#region Filter
 
-// linqFunctions.FilterPeople(people);
+linqFunctions.FilterPeople(people);
 
-// List<object> obj = new List<object>() { "Sajjad", 1, 2, 3, true, "Kheiri", 85 };
+List<object> obj = new List<object>() { "Sajjad", 1, 2, 3, true, "Kheiri", 85 };
 
-// linqFunctions.FilterByType(obj);
+linqFunctions.FilterByType(obj);
 
-// #endregion
+#endregion
 
-// #region Sort
+#region Sort
 
-// linqFunctions.SortByFirstName(people);
+linqFunctions.SortByFirstName(people);
 
-// linqFunctions.SortByTwoOptions(people);
+linqFunctions.SortByTwoOptions(people);
 
-// #endregion
+#endregion
 
 #region GroupBy
 
@@ -51,5 +51,40 @@ linqFunctions.GroupByPeople(people);
 linqFunctions.InnerJoinPersonInfo(people, personInformation);
 
 linqFunctions.GroupJoinPersonInfo(people, personInformation);
+
+#endregion
+
+#region Operations
+
+linqFunctions.Distinct();
+linqFunctions.DistinctBy(people);
+
+linqFunctions.Union();
+linqFunctions.UnionBy(people, people);
+
+linqFunctions.Except();
+linqFunctions.ExceptBy(people, new List<int> { 2, 3 });
+
+linqFunctions.Intersect();
+linqFunctions.IntersectBy(people, new List<int> { 2, 3 });
+
+linqFunctions.Pagination(0, 3);
+linqFunctions.Pagination(1, 3);
+linqFunctions.Pagination(2, 3);
+linqFunctions.Pagination(3, 3);
+
+linqFunctions.Chunk(4);
+
+#endregion
+
+#region Aggregations
+
+linqFunctions.AggregationFunctions(people);
+
+#endregion
+
+#region Generators
+    
+    linqFunctions.GeneratorFunctions();
 
 #endregion

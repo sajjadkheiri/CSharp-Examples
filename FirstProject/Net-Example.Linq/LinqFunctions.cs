@@ -188,4 +188,191 @@ public class LinqFunctions
             }
         }
     }
+
+    public void Distinct()
+    {
+        List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 1, 6, 3, 5, 4, 9, 5 };
+
+        var result = numbers.Distinct();
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    /// <summary>
+    /// DistinctBy works with a keySelector that you can distinct according to that
+    /// </summary>
+    public void DistinctBy(List<Person> people)
+    {
+        var result = people.DistinctBy(p => p.Age);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    public void Union()
+    {
+        List<int> firstList = new List<int> { 1, 2, 3, 4, 5, 6 };
+        List<int> secondList = new List<int> { 4, 5, 6, 7, 8, 9 };
+
+        var result = firstList.Union(secondList);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    public void UnionBy(List<Person> people1, List<Person> people2)
+    {
+        var result = people1.UnionBy(people2, p => p.Age);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    public void Except()
+    {
+        List<int> firstList = new List<int> { 1, 2, 3, 4, 5, 6 };
+        List<int> secondList = new List<int> { 4, 5, 6, 7, 8, 9 };
+
+        var result = firstList.Except(secondList);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    /// <summary>
+    /// Produces the set difference of two sequences according to a specified key selector
+    /// </summary>
+    public void ExceptBy(List<Person> people, List<int> exceptionAge)
+    {
+        var result = people.ExceptBy(exceptionAge, p => p.Age);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    public void Intersect()
+    {
+        List<int> firstList = new List<int> { 1, 2, 3, 4, 5, 6 };
+        List<int> secondList = new List<int> { 4, 5, 6, 7, 8, 9 };
+
+        var result = firstList.Intersect(secondList);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    public void IntersectBy(List<Person> people, List<int> intersectioAge)
+    {
+        var result = people.IntersectBy(intersectioAge, p => p.Age);
+
+        foreach (var number in result)
+        {
+            Console.WriteLine(number);
+        }
+    }
+
+    /// <summary>
+    /// Zip can mix 2 or 3 list of items
+    /// Tip : the shortest list is the base of mix
+    /// </summary>
+    public void Zip(bool twoItems)
+    {
+        List<int> number1 = new List<int>() { 1, 2, 3, 4, 5 };
+        List<int> number2 = new List<int>() { 6, 7, 8, 9, 10 };
+        List<int> number3 = new List<int>() { 11, 12, 13 };
+
+        if (twoItems)
+        {
+            var twoItemsResult = number1.Zip(number2);
+
+            foreach (var item in twoItemsResult)
+            {
+                Console.WriteLine($"First Item : {item.First} | Second Item : {item.Second}");
+            }
+        }
+        else
+        {
+            var threeItemsResult = number1.Zip(number2, number3);
+
+            foreach (var item in threeItemsResult)
+            {
+                Console.WriteLine($"First Item : {item.First} | Second Item : {item.Second} | Third Item : {item.Third}");
+            }
+        }
+
+    }
+
+    /// <summary>
+    /// Skip : 
+    /// Take : Get specific number of a collection and return an Enumerable to work on that
+    /// </summary>
+    public void Pagination(int pageIndex, int pageSize)
+    {
+        List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+
+        var result = numbers.Skip(pageIndex * pageSize).Take(pageSize);
+
+        foreach (var item in result)
+        {
+            Console.WriteLine(item);
+            Console.WriteLine("----------------------");
+        }
+    }
+
+    /// <summary>
+    /// Splits the elements of a sequence into chunks of size
+    /// </summary>
+    public void Chunk(int chunkSize)
+    {
+        List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 };
+
+        var result = numbers.Chunk(chunkSize);
+
+        foreach (var item in result)
+        {
+            Console.WriteLine(item);
+            Console.WriteLine("----------------------");
+        }
+    }
+
+    public void AggregationFunctions(List<Person> people)
+    {
+        var totalCoun = people.Count();
+        var minValue = people.Min();
+        var minByValue = people.MinBy(x => x.Age);
+        var maxValue = people.Max();
+        var maxByValue = people.MaxBy(x => x.Age);
+        var avg = people.Average(x => x.Age);
+        var sum = people.Sum(x => x.Age);
+
+        Console.Write($"Total count : {totalCoun}");
+        Console.Write($"Min value : {minValue} | MinBy value : {minByValue}");
+        Console.Write($"Max value : {maxValue} | MaxBy value : {maxByValue}");
+        Console.Write($"Average : {avg}");
+        Console.Write($"Sum : {sum}");
+    }
+
+    public void GeneratorFunctions()
+    {
+        var rangeNumbers = Enumerable.Range(0, 100).ToList();
+
+        var empty = Enumerable.Empty<int>().ToList();
+
+        var repeat = Enumerable.Repeat<int>(1, 20);
+    }
 }
