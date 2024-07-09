@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Net_Example.ADO;
+
+AdoFunctions adoFunctions = new AdoFunctions();
+adoFunctions.SimpleImplementation();
