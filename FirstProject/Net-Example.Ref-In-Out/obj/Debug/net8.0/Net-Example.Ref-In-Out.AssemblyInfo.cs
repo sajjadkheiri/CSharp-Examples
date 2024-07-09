@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Ref-In-Out")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d27aeff5b0980f484c76abd074e5b86c644066b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c36e0a24afd3ceb0dfc8ab69e25b14f1d0e017ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Ref-In-Out")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Ref-In-Out")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
