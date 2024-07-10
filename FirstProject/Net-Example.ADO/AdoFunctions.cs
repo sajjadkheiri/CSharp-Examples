@@ -60,4 +60,9 @@ public class AdoFunctions
 
         sqlConnection.Close();
     }
+
+    public void newClass()
+    {
+        
+    }
 }
