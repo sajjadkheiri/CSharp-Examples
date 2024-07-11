@@ -4,6 +4,24 @@ namespace Net_Example.ADO;
 
 public class AdoFunctions
 {
+    private readonly SqlConnection _connection;
+
+    public AdoFunctions()
+    {
+        SqlConnectionStringBuilder connectionBuilder = new SqlConnectionStringBuilder()
+        {
+            InitialCatalog = "SampleDB",
+            DataSource = ".",
+            Password = "1qaz@WSX",
+            UserID = "sa",
+            Encrypt = false,
+            ConnectTimeout = 100,
+            CommandTimeout = 200
+        };
+
+        _connection = new SqlConnection(connectionBuilder.ConnectionString);
+    }
+
     public void SimpleImplementation()
     {
         string connectionString = "Server=.;initial catalog=SampleDB;User Id=sa;Password=1qaz@WSX";
@@ -59,5 +77,26 @@ public class AdoFunctions
         Console.WriteLine(sqlConnection.ConnectionTimeout);
 
         sqlConnection.Close();
+    }
+
+    public void CreateCommand()
+    {
+        SqlCommand command = new SqlCommand()
+        {
+            Connection = _connection,
+            CommandType = System.Data.CommandType.Text,
+            CommandText = "Select * from Categories"
+        };
+
+        _connection.Open();
+
+        var reader = command.ExecuteReader();
+
+        while (reader.Read())
+        {
+            Console.WriteLine($"Id : {reader["Id"]} | Name : {reader["Name"]}");
+        }
+
+        _connection.Close();
     }
 }
