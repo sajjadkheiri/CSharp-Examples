@@ -157,4 +157,48 @@ public class AdoFunctions
 
         _connection.Close();
     }
+
+    public void InsertBySqlParameter(int id, string firstName, string lastName)
+    {
+        SqlParameter idParam = new SqlParameter
+        {
+            ParameterName = "@id",
+            DbType = System.Data.DbType.Int32,
+            Direction = System.Data.ParameterDirection.Input,
+            Value = id
+        };
+
+        SqlParameter firstNameParam = new SqlParameter
+        {
+            ParameterName = "@firstName",
+            DbType = System.Data.DbType.String,
+            Direction = System.Data.ParameterDirection.Input,
+            Value = firstName
+        };
+
+        SqlParameter lastNameParam = new SqlParameter
+        {
+            ParameterName = "@lastName",
+            DbType = System.Data.DbType.String,
+            Direction = System.Data.ParameterDirection.Input,
+            Value = lastName
+        };
+
+        SqlCommand sqlCommand = new SqlCommand()
+        {
+            Connection = _connection,
+            CommandType = System.Data.CommandType.Text,
+            CommandText = "Insert Into Products(Id,FirstName,LastName) values (@id,@firstName,@lastName)"
+        };
+
+        sqlCommand.Parameters.Add(idParam);
+        sqlCommand.Parameters.Add(firstNameParam);
+        sqlCommand.Parameters.Add(lastNameParam);
+
+        _connection.Open();
+
+        var result = sqlCommand.ExecuteNonQuery();
+
+        Console.WriteLine($"{result} row Affected ");
+    }
 }
