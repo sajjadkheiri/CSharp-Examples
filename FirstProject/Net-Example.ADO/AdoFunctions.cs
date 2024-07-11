@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using System.Transactions;
+using Microsoft.Data.SqlClient;
 
 namespace Net_Example.ADO;
 
@@ -158,16 +159,8 @@ public class AdoFunctions
         _connection.Close();
     }
 
-    public void InsertBySqlParameter(int id, string firstName, string lastName)
+    public void InsertBySqlParameter(string firstName, string lastName)
     {
-        SqlParameter idParam = new SqlParameter
-        {
-            ParameterName = "@id",
-            DbType = System.Data.DbType.Int32,
-            Direction = System.Data.ParameterDirection.Input,
-            Value = id
-        };
-
         SqlParameter firstNameParam = new SqlParameter
         {
             ParameterName = "@firstName",
@@ -188,10 +181,9 @@ public class AdoFunctions
         {
             Connection = _connection,
             CommandType = System.Data.CommandType.Text,
-            CommandText = "Insert Into Products(Id,FirstName,LastName) values (@id,@firstName,@lastName)"
+            CommandText = "Insert Into Products(FirstName,LastName) values (@firstName,@lastName)"
         };
 
-        sqlCommand.Parameters.Add(idParam);
         sqlCommand.Parameters.Add(firstNameParam);
         sqlCommand.Parameters.Add(lastNameParam);
 
@@ -200,5 +192,35 @@ public class AdoFunctions
         var result = sqlCommand.ExecuteNonQuery();
 
         Console.WriteLine($"{result} row Affected ");
+    }
+
+    public void CreateTransaction(string firstName, string lastName)
+    {
+        SqlTransaction transaction = null;
+        
+        SqlCommand sqlCommand = new SqlCommand()
+        {
+            Connection = _connection,
+            CommandType = System.Data.CommandType.Text,
+            CommandText = $"Insert Into Products(Id,FirstName,LastName) values ('{firstName}','{lastName}')"
+        };
+
+        _connection.Open();
+
+        try
+        {
+            transaction = _connection.BeginTransaction();
+            var result = sqlCommand.ExecuteNonQuery();
+
+            transaction.Commit();
+
+            Console.WriteLine($"{result} row Affected ");
+        }
+        catch (Exception ex)
+        {
+            Console.Write(ex.Message);
+            transaction.Rollback();
+        }
+
     }
 }
