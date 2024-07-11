@@ -99,4 +99,32 @@ public class AdoFunctions
 
         _connection.Close();
     }
+
+    /// <summary>
+    /// This approach can be extremely effciently and the data won't store in the main storage,however
+    /// untile your data are being read, the connection will be opened
+    /// </summary>
+    public void CreateReader()
+    {
+        SqlCommand command = new SqlCommand()
+        {
+            Connection = _connection,
+            CommandType = System.Data.CommandType.Text,
+            CommandText = "Select * from Categories"
+        };
+
+        _connection.Open();
+
+        var reader = command.ExecuteReader();
+
+        while (reader.Read())
+        {
+            for (int i = 0; i < reader.FieldCount; i++)
+            {
+                Console.WriteLine($"{reader.GetName(i)} : {reader.GetValue(i)}");
+            }
+        }
+
+        _connection.Close();
+    }
 }
