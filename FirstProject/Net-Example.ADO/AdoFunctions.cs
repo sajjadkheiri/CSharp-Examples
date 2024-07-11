@@ -104,7 +104,7 @@ public class AdoFunctions
     /// This approach can be extremely effciently and the data won't store in the main storage,however
     /// untile your data are being read, the connection will be opened
     /// </summary>
-    public void CreateReader()
+    public void CreateDataReader()
     {
         SqlCommand command = new SqlCommand()
         {
@@ -124,6 +124,36 @@ public class AdoFunctions
                 Console.WriteLine($"{reader.GetName(i)} : {reader.GetValue(i)}");
             }
         }
+
+        _connection.Close();
+    }
+
+    public void CreateMultipleDataReader()
+    {
+        SqlCommand sqlCommand = new SqlCommand()
+        {
+            Connection = _connection,
+            CommandType = System.Data.CommandType.StoredProcedure,
+            CommandText = "ProcedureName"
+        };
+
+        _connection.Open();
+
+        var reader = sqlCommand.ExecuteReader();
+
+        do
+        {
+            while (reader.Read())
+            {
+                for (int i = 0; i < reader.FieldCount; i++)
+                {
+                    Console.WriteLine($"{reader.GetName(i)} : {reader.GetValue(i)}");
+                }
+            }
+
+            Console.WriteLine("_________________________________________");
+
+        } while (reader.NextResult());
 
         _connection.Close();
     }
