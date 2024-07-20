@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net-Example.Structs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9e3d658c6933468ef1f28659a7c0995254516a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d0666c5591b1e2fc6a0e3462d189b0c05368674")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net-Example.Structs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net-Example.Structs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
