@@ -77,4 +77,18 @@ public class ThreadFunctions
 
         Console.ReadLine();
     }
+
+    public void ThreadStateCheck()
+    {
+        CharPrinter charPrinter = new CharPrinter();
+        System.Threading.Thread thread = new(charPrinter.DashPrinter);
+
+        thread.Start();
+
+        Console.WriteLine(thread.ThreadState);
+
+        var isBlock = (thread.ThreadState & ThreadState.WaitSleepJoin) != 0;
+
+        Console.WriteLine($"Thread is block ? {isBlock}");
+    }
 }
