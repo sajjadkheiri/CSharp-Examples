@@ -4,6 +4,9 @@ namespace Net_Example.Thread;
 
 public class ThreadFunctions
 {
+    bool allowWrite = true;
+    private readonly static object _locker = new object();
+
     public void SimpleThread()
     {
         CharPrinter charPrinter = new CharPrinter();
@@ -90,5 +93,43 @@ public class ThreadFunctions
         var isBlock = (thread.ThreadState & ThreadState.WaitSleepJoin) != 0;
 
         Console.WriteLine($"Thread is block ? {isBlock}");
+    }
+
+    public void SharedState()
+    {
+        System.Threading.Thread first = new System.Threading.Thread(CheckSharedState);
+        System.Threading.Thread second = new System.Threading.Thread(CheckSharedState);
+
+        first.Start();
+        second.Start();
+
+        Console.ReadKey();
+    }
+
+    public void CheckSharedState()
+    {
+        if (allowWrite)
+        {
+            Console.WriteLine("This is my message");
+            allowWrite = false;
+        }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public void SafeCheckSharedState()
+    {
+        lock (_locker)
+        {
+            if (allowWrite)
+            {
+                Console.WriteLine($"Locker thread name is {System.Threading.Thread.CurrentThread.Name}");
+                Console.WriteLine("This is my message");
+                allowWrite = false;
+            }
+        }
+
+        Console.WriteLine(System.Threading.Thread.CurrentThread.Name);
     }
 }
