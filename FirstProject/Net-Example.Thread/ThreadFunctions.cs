@@ -116,7 +116,7 @@ public class ThreadFunctions
     }
 
     /// <summary>
-    /// 
+    /// The lock is used to get a lock for a single thread. A lock prevents several threads from accessing a resource simultaneously
     /// </summary>
     public void SafeCheckSharedState()
     {
