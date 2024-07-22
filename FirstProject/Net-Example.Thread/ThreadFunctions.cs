@@ -172,4 +172,34 @@ public class ThreadFunctions
 
         Console.ReadKey();
     }
+
+    /// <summary>
+    /// Tip : When you initial thread into the TryCatch, your code has issue because TryCatch won't detect
+    /// your exception. Your exception handling must be into the main method where the thread wants start.
+    /// </summary>
+    public void ExceptionHandling()
+    {
+        System.Threading.Thread thread = new(ThreadStartPoint);
+
+        thread.Start();
+
+        Console.ReadKey();
+    }
+
+    private void ThreadStartPoint()
+    {
+        try
+        {
+            Exception();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private void Exception()
+    {
+        throw new Exception("Exception !!!!!!!!");
+    }
 }
