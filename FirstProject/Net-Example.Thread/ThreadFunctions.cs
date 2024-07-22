@@ -202,4 +202,21 @@ public class ThreadFunctions
     {
         throw new Exception("Exception !!!!!!!!");
     }
+
+    /// <summary>
+    /// Foreground thread : Foreground is the default form of thread. It will remain active until all the Foreground threads have finished.
+    /// Background thread : They do not prevent the application from terminating (IsBackground property)
+    /// Join : It tries to wait before starting another thraed. 
+    /// </summary>
+    public void BackgroundThread()
+    {
+        CharPrinter charPrinter = new();
+        System.Threading.Thread thread = new(charPrinter.DashPrinter);
+
+        thread.IsBackground = true;
+
+        thread.Start();
+
+        thread.Join(TimeSpan.FromSeconds(10));
+    }
 }
