@@ -27,4 +27,13 @@ public class CharPrinter
     {
         Console.WriteLine($"My fullname is {firstName} {lastName}");
     }
+
+    public void ThreadTypePrinter()
+    {
+        var isPool = System.Threading.Thread.CurrentThread.IsThreadPoolThread;
+        var IsBackground = System.Threading.Thread.CurrentThread.IsBackground;
+
+        Console.WriteLine($"Is pool : {isPool}");
+        Console.WriteLine($"Is bakcground : {IsBackground}");
+    }
 }

@@ -219,4 +219,27 @@ public class ThreadFunctions
 
         thread.Join(TimeSpan.FromSeconds(10));
     }
+
+    public void WithoutThreadPool()
+    {
+        CharPrinter charPrinter = new();
+        System.Threading.Thread thread = new(charPrinter.ThreadTypePrinter);
+
+        thread.Start();
+
+        Console.ReadKey();
+    }
+
+    /// <summary>
+    /// TODO : Read more about it
+    /// </summary>
+    public void WithThreadPool()
+    {
+        CharPrinter charPrinter = new();
+
+        Task.Run(() => charPrinter.ThreadTypePrinter());
+
+        Console.ReadKey()
+    }
+
 }
