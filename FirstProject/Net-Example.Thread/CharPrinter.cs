@@ -17,4 +17,14 @@ public class CharPrinter
             Console.Write('-');
         }
     }
+
+    public void FirstNamePrinter(object firstName)
+    {
+        Console.WriteLine($"My Name is {firstName}");
+    }
+
+    public void FullNamePrinter(string firstName, string lastName)
+    {
+        Console.WriteLine($"My fullname is {firstName} {lastName}");
+    }
 }

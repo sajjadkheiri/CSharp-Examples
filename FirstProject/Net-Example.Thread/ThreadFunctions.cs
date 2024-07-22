@@ -132,4 +132,44 @@ public class ThreadFunctions
 
         Console.WriteLine(System.Threading.Thread.CurrentThread.Name);
     }
+
+    public void OneInputParam(object firstName)
+    {
+        CharPrinter charPrinter = new CharPrinter();
+        System.Threading.Thread thread = new(charPrinter.FirstNamePrinter);
+
+        thread.Start(firstName);
+
+        Console.ReadKey();
+    }
+
+    public void InputParams(string firstName, string lastName)
+    {
+        CharPrinter charPrinter = new CharPrinter();
+        System.Threading.Thread thread = new(() => charPrinter.FullNamePrinter(firstName, lastName));
+
+        thread.Start();
+
+        Console.ReadKey();
+    }
+
+    /// <summary>
+    /// Tip : In this case, you expect to print both names at 2 thread. However, like Linq syntax when
+    /// the intialization doesn't run until the thread will be run and the last value(name) will be printed.
+    /// </summary>
+    public void CaptureVariableIssue()
+    {
+        string name = "Sajjad";
+
+        System.Threading.Thread thread_1 = new(() => Console.WriteLine(name));
+
+        name = "Steve";
+
+        System.Threading.Thread thread_2 = new(() => Console.WriteLine(name));
+
+        thread_1.Start();
+        thread_2.Start();
+
+        Console.ReadKey();
+    }
 }
