@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Thread", "Net-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Tasks", "Net-Example.Tasks\Net-Example.Tasks.csproj", "{4A05AC75-3AD4-40DF-8957-1CC025FDA2B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net-Example.Asynchronous", "Net-Example.Asynchronous\Net-Example.Asynchronous.csproj", "{29954EA9-0878-4096-BD1A-AE6F33D97403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{4A05AC75-3AD4-40DF-8957-1CC025FDA2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A05AC75-3AD4-40DF-8957-1CC025FDA2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A05AC75-3AD4-40DF-8957-1CC025FDA2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29954EA9-0878-4096-BD1A-AE6F33D97403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29954EA9-0878-4096-BD1A-AE6F33D97403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29954EA9-0878-4096-BD1A-AE6F33D97403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29954EA9-0878-4096-BD1A-AE6F33D97403}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
