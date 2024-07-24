@@ -78,6 +78,12 @@ public class TaskFunctions
         }
     }
 
+    public void Delay()
+    {
+        Task.Delay(2000).ContinueWith(task => Console.WriteLine("Continue after 2 seconds"));
+        Console.ReadKey();
+    }
+
     private void PrintName()
     {
         Console.WriteLine($"Thread pool : {Thread.CurrentThread.IsThreadPoolThread}");
