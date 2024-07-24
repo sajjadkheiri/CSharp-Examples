@@ -239,7 +239,7 @@ public class ThreadFunctions
 
         Task.Run(() => charPrinter.ThreadTypePrinter());
 
-        Console.ReadKey()
+        Console.ReadKey();
     }
 
 }
