@@ -11,9 +11,9 @@
 ### Records
 ### Structs
 ### Ref-In-Out
-- Ref
-- In
-- Out
+- **Ref:**
+- **In:**
+- **Out:**
 
 ### Tuples
 
@@ -28,56 +28,56 @@
 #### Encapsulation
 
 #### Inheritance
-- Sealed
+- **Sealed:**
 
 #### Polymorphism
-- Virtual methods
+- **Virtual methods:**
 
 ### Hidden methods
 
 ### Explicit / Implicit
 
 ### Generics
-- Class
-- Method
+- **Class:**
+- **Method:**
 
 ### Static
 
 ### Array
 
-- Simple
-- Multi Dimensional
-- Jagged
-- Enumerators 
-- Array Pool
+- **Simple:**
+- **Multi Dimensional:**
+- **Jagged:**
+- **Enumerators :**
+- **Array Pool:**
 
 ### Delegate
 
-- Action T
-- Func T
-- Multicast delegate
-- Lambda Expression
-- Closure
-- Event
+- **Action T:**
+- **Func T:**
+- **Multicast delegate:**
+- **Lambda Expression:**
+- **Closure:**
+- **Event:**
 
 ### Collections
 
-- Collection interfaces
-- List
-- Queue
-- Stack
-- Linked list
-- Stored list
-- Dictionary
-- Stored dictionary
-- Collection performance
-- Immutable collections
+- **Collection interfaces:**
+- **List:**
+- **Queue:**
+- **Stack:**
+- **Linked list:**
+- **Stored list:**
+- **Dictionary:**
+- **Stored dictionary:**
+- **Collection performance:**
+- **Immutable collections:**
 
 ### Exceptions
 
-- Exception handeling
-- Try / Catch
-- User Defined Exception
+- **Exception handeling:**
+- **Try / Catch:**
+- **User Defined Exception:**
 
 ### Linq
 
@@ -85,26 +85,26 @@
 
 ### Thread
 
-- Thread join
-- Thread sleep
-- Blocking
-- Locking
-- Exception handeling
-- Foreground Thread
-- Background Thread
-- Thread Priority
-- Thread Pool
+- **Thread join:**
+- **Thread sleep:**
+- **Blocking:**
+- **Locking:**
+- **Exception handeling:**
+- **Foreground Thread:**
+- **Background Thread:**
+- **Thread Priority:**
+- **Thread Pool:**
 
 ### Tasks
 
-- Starting a task
-- Returning value
-- Delay
+- **Starting a task:**
+- **Returning value:**
+- **Delay:**
 
 ### Asynchronous
 
-- Principles of Asynchrony
-- Async Functions
-- Canceling Tasks
-- Task Combination
-- Obsolete Patterns
+- **Principles of Asynchrony:**
+- **Async Functions:**
+- **Canceling Tasks:**
+- **Task Combination:**
+- **Obsolete Patterns:**
