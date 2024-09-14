@@ -2,24 +2,62 @@
 
 
 ### Class
+
+<br />
+
 ### Field
+
+<br />
+
 ### Property
+
+<br />
+
 ### Mehtod
+
+<br />
+
 ### Constructor
+
+<br />
+
 ### Extension method
+
+<br />
+
 ### Anonymous type
+
+<br />
+
 ### Records
+
+<br />
+
 ### Structs
+
+<br />
+
 ### Ref-In-Out
 - **Ref:**
 - **In:**
 - **Out:**
 
+
+<br />
+
 ### Tuples
+
+
+<br />
 
 ### Partials
 
+
+<br />
+
 ### Enums
+
+<br />
 
 ### OOP
 
@@ -33,15 +71,25 @@
 #### Polymorphism
 - **Virtual methods:**
 
+<br />
+
 ### Hidden methods
 
+<br />
+
 ### Explicit / Implicit
+
+<br />
 
 ### Generics
 - **Class:**
 - **Method:**
 
+<br />
+
 ### Static
+
+<br />
 
 ### Array
 
@@ -51,6 +99,8 @@
 - **Enumerators :**
 - **Array Pool:**
 
+<br />
+
 ### Delegate
 
 - **Action T:**
@@ -59,6 +109,8 @@
 - **Lambda Expression:**
 - **Closure:**
 - **Event:**
+
+<br />
 
 ### Collections
 
@@ -73,15 +125,23 @@
 - **Collection performance:**
 - **Immutable collections:**
 
+<br />
+
 ### Exceptions
 
 - **Exception handeling:**
 - **Try / Catch:**
 - **User Defined Exception:**
 
+<br />
+
 ### Linq
 
+<br />
+
 ### ADO
+
+<br />
 
 ### Thread
 
@@ -95,11 +155,15 @@
 - **Thread Priority:**
 - **Thread Pool:**
 
+<br />
+
 ### Tasks
 
 - **Starting a task:**
 - **Returning value:**
 - **Delay:**
+
+<br />
 
 ### Asynchronous
 
@@ -108,3 +172,5 @@
 - **Canceling Tasks:**
 - **Task Combination:**
 - **Obsolete Patterns:**
+
+<br />
