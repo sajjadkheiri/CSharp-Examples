@@ -1,4 +1,4 @@
-# .Net Examples
+# C# Examples
 
 In this repo, my approach will be a reference covering all the C# concepts such as
 
